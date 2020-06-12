@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>1. Terencana dan memiliki deadline yang jelas
+
+2. lebih memilih berkomunikasi dengan bicara
+
+3. Perubahan mendadak tidak jadi masalah
+
+4. Subyektif
+
+5. Menemukan dan mengembangkan ide dengan merenungkan
+
+6. Bergerak dari gambaran umum sebagai kesimpulan akhir
+
+7. Berorientasi pada dunia internal (memori, pemikiran, ide)
+
+8. Berbicara mengenai visi masa depan dan konsep - konsep mengenai visi tersebut
+
+9. Diyakinkan dengan penjelasan yang masuk akal
+
+10. Fokus pada sedikit hobi secara luas dan umum
+
+11. Sosial dan ekpresif
+
+12. Aturan, jadwal, target sangat membantu dan memperjelas tindakan 
+
+13. Menggunakan imajinasi dan perenungan sebagai pedoman
+
+14. Berorientasi manusia dan hubungan
+
+15. pertemmuan dengan orang lain dan aktivitas sosial membuat bersemangat
+
+16. SOP sangat membosankan
+
+17. Mengambil keputusan berdasarkan perasaan pribadi
+
+18. Prosedural dan tradisional
+
+19. Berorientasi pada proses
+
+20. Beraktifitas sendirian di rumah membosankan
+
+21. Mengatur orang lain dengan tata tertib agar tujuan tercapai
+
+22. Memilih fakta lebih penting dari ide inspiratif
+
+23. Mengemukakan kesepakatan lebih dahulu
+
+24. Fokus hal - hal baru dan siap menyesuaikan diri serta mengubah target 
+
+25. kontinuitas dan stabilitas lebih diutamakan
+
+26. Berpegang teguh pada pendirian
+
+27. Bertindak dengan semangat tanpa timerame
+
+28. Berinisiatif bila situasi memaksa atau berhubungan dengan kepentingan diri
+
+29. Lebih memilih tempat yang ramai dan banyak interaksi
+
+30. Berempati
+
+31. Bertindak tanpa pikir
+
+32. Menghargai seseorang karena skill dan faktor teknis
+
+33. Merasa tenang bila semua sudah diputuskan 
+
+34. Menarik kesimpulan dengan cepat sesuai naluri
+
+35. Menyimpan semangat dalam hati
+
+36. Memahami ide dan teori saat mempraktekkan langsung
+
+37. terlalu kaku pada peraturan dan pekerjaan itu kejam
+
+38. Memilih berkomunikasi pada sekelompok orang
+
+39. Yang penting tujuan tercapai
+
+40. Ketidakpastian membuat bingung dan meresahkan
+
+41. Berfokus pada masa depan (apa yang akan terjadi)
+
+42. Mengakomodasi
+
+43. Mengamati dan mengingat detail hanya yang berhubungan dengan pola
+
+44. Situasi last minute membuat stress dan merupakan kesalahan
+
+45. Lebih suka komunikasi langsung (tatap muka)
+
+46. Konsteptual
+
+47. Perubahan adalah semangat hidup
+
+48. Sering dianggap terlalu memihak
+
+49. Bersemangat saat mengkritik dan menemukan kesalahan
+
+50. Bertindak sesuai apa yang sudah direncanakan
+
+51. Menyukai tantangan baru untuk menguasasi keterampilan baru
+
+52. Membangun ide dengan matang baru membicarakanya
+
+53. Memilih cara yang unik dan belum dipraktekan orang lain
+
+54. Hidup harusnya mengalir sesuai kondisi
+
+55. Perasaan manusia lebih penting dari sekadar standar (yang adalah benda mati)
+
+56. Daftar dan checklist adalah tugas dan beban
+
+57. Menuntut perlakuan khusus sesuai kemampuan orang
+
+58. Mementingkan nilai nilai personal
+
+59. Puas ketika mampu menjalankan semuanya sesuai rencana
+
+60. Berhati hati, penuh pertimbangan, kaku</value>
+  </data>
+  <data name="label45.Text" xml:space="preserve">
+    <value>1. Spontan, Fleksibel, tidak diikat waktu
+
+2. lebih memilih berkomunikasi dengan menulis
+
+3. Tidak Menyukai hal - hal yang bersifat mendadak dan diluar perencanaan
+
+4. Obyektif
+
+5. Menemukan dan mengembangkan ide dengan mendiskusikanya
+
+6. Bergerak dari gambaran umum baru ke detail 
+
+7. Berorientasi pada dunia eksternal (Kegiatan, Orang)
+
+8. Berbicara mengenai masalah yang dihadai hari ini dan langkah - langkah praktis mengatasinya
+
+9. Diyakinkan dengan penjelasan yang meyentuh perasaan
+
+10. Fokus pada sedikit hobi namun mendalam
+
+11. Tertutup dan mandiri
+
+12. Aturan, jadwal, target sangat mengikat dan membebani
+
+13. Menggunakan pengalaman sebagai pedoman
+
+14. Berorientasi tugas dan job desk
+
+15. pertemmuan dengan orang lain dan aktivitas sosial melelahkan
+
+16. SOP sangat membantu
+
+17. Mengambil keputusan berdasarkan logika dan aturan main
+
+18. Bebas dan dinamis
+
+19. Berorientasi pada hasil
+
+20. Beraktifitas sendirian di rumah menyenangkan
+
+21. Membiarkan orang lain bertindak bebas asalkan tujuan tercapai
+
+22. Memilih ide inspiratif lebih penting dari fakta
+
+23. Mengemukakan tujuan dan sasaran lebih dahulu
+
+24. Fokus pada target dan mengebaikan hal - hal baru
+
+25. kontinuitas dan stabilitas lebih diutamakan
+
+26. Pendirian masih bisa erubah tergantung situasi nanti
+
+27. Bertindak langkah demi langkah dengan timeframe yang jelas
+
+28. Berinisiatif tinggi hampir dalam berbagai hal meskipun tidak berhubungan dengan dirinya
+
+29. Lebih memilih tempat yang tenang dan pribadi untuk berkonsentrasi
+
+30. Menganalisis
+
+31. Berfikir secara matang sebelum bertindak
+
+32. Menghargai seseorang karena sifat dan perilakunya
+
+33. Merasa nyaman bila situasi tetap terbuka terhadap pilihan - pilihan lain
+
+34. Menarik kesimpulan dengan lama dan berhati - hati
+
+35. Mengekspresikan semangat
+
+36. Mengklarifikasi ide dan teori sebelukm dipraktekan
+
+37. Melibatkan perasaan itu tidak profesional 
+
+38. Mencari kesempatan untuk berkomunikasi secara perorangan
+
+39. Yang penting situasi harmonis terjaga
+
+40. Ketidakpastian itu seru, menegangkan dan membuat hati lebih senang
+
+41. Berfokus pada masa kini (apa yang bisa diperbaiki sekarang)
+
+42. Mempertanyakan
+
+43. Secara konsisten mengamati dan mengingat detail
+
+44. Situasi last minute membuat semangat dan memunculkan potensi
+
+45. Lebih suka komunikasi tidak langsung (telefon, surat, email)
+
+46. Praktis
+
+47. Perubahan adalah musuh
+
+48. Sering dianggap keras kepala
+
+49. Bersemangat saat menolong orang keluar dari kesalahan dan meluruskan
+
+50. Bertindak sesuai situasi dan kondisi yang terjadi saat itu
+
+51. Menggunakan keterampilan yang sudah dikuasai
+
+52. Membangun ide pada saat bicara
+
+53. Memilih cara yang sudah ada dan sudah terbukti
+
+54. Hidup harus sudah diatur dari awal
+
+55. Standar harus ditegakan di atas segalanya (itu menunjukan kehormatan dan harga diri)
+
+56. Daftar dan checklist adalah panduan penting
+
+57. Menuntut perlakuan yang adil dan sama pada semua orang
+
+58. Mementingkan sebab akibat
+
+59. Puas ketika mampuo beradaptasi dengan momentum yang terjadi
+
+60. Spontan, Easy going, Fleksibel</value>
+  </data>
+</root>
